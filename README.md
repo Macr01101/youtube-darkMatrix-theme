@@ -4,7 +4,7 @@
 
 <p>Restore Video Thumbnails
 To restore video previews, remove or comment out the first 8 thumbnail-hiding filters.
-Keep the .ytLockupMetadataViewModelAvatar rule if you still want to hide channel avatars.</p>
+Keep the " .ytLockupMetadataViewModelAvatar " rule if you still want to hide channel avatars.</p>
 
 <img width="1728" height="972" alt="image" src="https://github.com/user-attachments/assets/056b4519-11db-42c4-a5da-e21397e68a42" />
 

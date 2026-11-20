@@ -1,4 +1,15 @@
 <h1>YouTube Theme style Dark-Matrix for extension uBlock-Origin</h1>
 
-<img width="1730" height="978" alt="image" src="https://github.com/user-attachments/assets/8086a3fc-1133-4683-9034-9cb867274c17" />
-<img width="1730" height="978" alt="image" src="https://github.com/user-attachments/assets/48b3d4e9-a0dd-44cf-b629-59fc39f9e562" />
+<img width="1728" height="972" alt="image" src="https://github.com/user-attachments/assets/5142914f-a4a3-4560-8c9a-e389632dd15a" />
+
+<p>Restore Video Thumbnails
+To restore video previews, remove or comment out the first 8 thumbnail-hiding filters.
+Keep the .ytLockupMetadataViewModelAvatar rule if you still want to hide channel avatars.</p>
+
+<img width="1728" height="972" alt="image" src="https://github.com/user-attachments/assets/056b4519-11db-42c4-a5da-e21397e68a42" />
+
+<img width="1728" height="972" alt="image" src="https://github.com/user-attachments/assets/06c7c0b6-6dcb-4f8f-85ce-c39661d6f9f3" />
+
+<img width="1728" height="972" alt="image" src="https://github.com/user-attachments/assets/c20a5220-32bb-4176-88eb-5c2d20835830" />
+
+<img width="1728" height="972" alt="image" src="https://github.com/user-attachments/assets/2f0b2f35-e049-457c-84a8-0dac568a0230" />

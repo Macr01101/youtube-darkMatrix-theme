@@ -1,7 +1,3 @@
-/* --------------------------------------------------
-   01. Thumbnail & Element Removal
-   -------------------------------------------------- */
-
 www.youtube.com##ytd-thumbnail
 www.youtube.com##yt-thumbnail-view-model
 www.youtube.com##.yt-lockup-view-model__content-image
@@ -11,22 +7,28 @@ www.youtube.com##.ytp-videowall-still
 www.youtube.com##.ytLockupViewModelContentImage
 www.youtube.com###thumbnail-container
 
+www.youtube.com##.ytLockupMetadataViewModelAvatar
+
+www.youtube.com###foreground-content
+www.youtube.com###alerts > .ytd-browse.style-scope
+
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(6)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(1)
+
 www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-button-shape
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
+www.youtube.com###copyright
 
 
-/* --------------------------------------------------
-   02. Global Typography & Icon Colors
-   -------------------------------------------------- */
 
 youtube.com##*:style(color: #00D100 !important;)
 youtube.com##yt-icon:style(color: #00A800 !important;)
 youtube.com##a:style(color: #E6E6E6 !important;)
 
 
-/* --------------------------------------------------
-   03. Main Background
-   -------------------------------------------------- */
 
 youtube.com##ytd-app:style(background-color: #000A00 !important;)
 youtube.com##ytd-masthead:style(background-color: #000A00 !important;)
@@ -36,22 +38,22 @@ youtube.com##ytd-mini-guide-renderer:style(background-color: #000A00 !important;
 youtube.com##playlist:style(background-color: #000A00 !important;)
 youtube.com##.ytd-app.style-scope.with-chipbar:style(background-color: #000A00 !important;)
 
+youtube.com##.ytItemSectionRendererStickyHeader:style(background-color: #000A00 !important;)
+youtube.com##.ytd-rich-grid-renderer.style-scope:style(background-color: #000A00 !important;)
 
-/* --------------------------------------------------
-   04. Secondary Background
-   -------------------------------------------------- */
 
-youtube.com##.ytd-playlist-panel-renderer:style(background-color: #001600 !important;)
+
+
+youtube.com##.ytd-playlist-panel-renderer:style(background-color: #001600 !important; border: none !important;)
 youtube.com###description:style(background-color: #001600 !important;)
 youtube.com##.ytSpecButtonShapeNextMainstagePadding:style(background-color: #001600 !important;)
+
 youtube.com##.ytdMiniplayerInfoBarContent:style(background-color: #001600 !important;)
 youtube.com##.ytdMiniplayerInfoBarExpand:style(background-color: #001600 !important;)
+
 youtube.com##.tp-yt-iron-dropdown.style-scope:style(background-color: #001600 !important;)
 
 
-/* --------------------------------------------------
-   05. Search Interface
-   -------------------------------------------------- */
 
 youtube.com##.ytSearchboxComponentInputBoxDark.ytSearchboxComponentInputBox:style(background-color: #001600 !important; border-color: #008F11 !important;)
 youtube.com##.ytSearchboxComponentSearchButtonDark.ytSearchboxComponentSearchButton:style(background-color: #001600 !important; border-color: #008F11 !important;)
@@ -61,14 +63,14 @@ youtube.com##.ytSearchboxComponentSuggestionsContainer:style(background-color: #
 youtube.com##ytd-search-suggestion-renderer:style(background-color: #001600 !important;)
 
 
-/* --------------------------------------------------
-   06. Navigation & Chips
-   -------------------------------------------------- */
+
 
 youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(5):style(background-color: #001600 !important; border: 2px solid #008F11 !important;)
+
 youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(2):style(background-color: #001600 !important; border: 2px solid #008F11 !important;)
 
 youtube.com##.ytChipShapeOnlyTextPadding.ytChipShapeActive.ytChipShapeChip:style(background-color: #001600 !important; border: 2px solid #008F11 !important;)
+
 youtube.com##.ytChipShapeOnlyTextPadding.ytChipShapeInactive.ytChipShapeChip:style(background-color: #001600 !important; border: 2px solid #008F11 !important;)
 
 youtube.com###newness-dot:style(background-color: #001600 !important; border: 2px solid #008F11 !important;)
@@ -76,22 +78,6 @@ youtube.com###newness-dot:style(background-color: #001600 !important; border: 2p
 youtube.com###icon > .yt-icon-button.style-scope:style(border: 2px solid #008F11 !important; border-radius: 50% !important;)
 
 
-/* --------------------------------------------------
-   07. Sidebar & Footer Removal
-   -------------------------------------------------- */
-
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(6)
-www.youtube.com###guide-links-primary
-www.youtube.com###guide-links-secondary
-www.youtube.com###copyright
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(1)
-www.youtube.com###alerts > .ytd-browse.style-scope
-
-
-/* --------------------------------------------------
-   08. Smooth Transitions
-   -------------------------------------------------- */
 
 youtube.com##yt-button-shape:style(transition: all .25s ease !important;)
 youtube.com##yt-icon-button:style(transition: all .25s ease !important;)
@@ -100,9 +86,7 @@ youtube.com##yt-chip-cloud-chip-renderer:style(transition: all .25s ease !import
 youtube.com##tp-yt-paper-icon-button:style(transition: all .25s ease !important;)
 
 
-/* --------------------------------------------------
-   09. Hover Effects
-   -------------------------------------------------- */
+
 
 youtube.com##button.yt-spec-button-shape-next:hover:style(background-color: #003000 !important;)
 youtube.com##yt-icon-button button:hover:style(background-color: #003000 !important;)
@@ -110,12 +94,21 @@ youtube.com##yt-chip-cloud-chip-renderer:hover:style(border-color: #00D100 !impo
 youtube.com##tp-yt-paper-icon-button:hover:style(background-color: #003000 !important;)
 
 
-/* --------------------------------------------------
-   10. Popup & Dropdown Menus
-   -------------------------------------------------- */
+
 
 youtube.com###header > .ytd-multi-page-menu-renderer.style-scope:style(background-color: #001600 !important;)
 youtube.com##ytd-multi-page-menu-renderer:style(background-color: #001600 !important;)
 youtube.com##ytd-multi-page-menu-renderer #contentWrapper:style(background-color: #001600 !important;)
 youtube.com##ytd-compact-link-renderer:style(background-color: #001600 !important;)
 youtube.com##ytd-popup-container:style(background-color: #000A00 !important;)
+
+
+
+
+youtube.com##.ytd-playlist-panel-video-renderer.style-scope.editable:style(background-color: #002000 !important; border-left: 2px solid #008F11 !important; border-radius: 0.8rem !important; padding: 10px !important; margin-bottom: 4px !important;)
+
+youtube.com##.ytLockupViewModelWrapper:style(border-left: 1px solid #008F11 !important; border-right: 1px solid #008F11 !important; border-radius: 0.6rem !important; padding: 10px !important;)
+
+youtube.com##.ytSpecButtonShapeNextMainstagePadding.ytSpecButtonShapeNextMainstageIconSize.ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextIconButton.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextText.ytSpecButtonShapeNextHost:style(background-color: #00000000 !important;)
+
+
